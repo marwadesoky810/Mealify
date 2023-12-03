@@ -1,0 +1,313 @@
+  /* nav bar  */
+@media screen  and (150px < width <1200px) {
+     .nav .menu {
+        display: block;
+        font-size: 30px;
+        
+     } 
+     .nav .links {
+        display: none;
+        
+     }
+  
+}
+/* all page Responsive */
+@media screen  and (1px < width <304px){
+    .container {
+        max-width: 150px;
+        flex-direction: row;
+        font-size: 8px;
+        scroll-padding: 30px 0 0;
+    }
+    /* header sec */
+    .header{
+        height: 130vh;
+    }
+    .header .content {
+        text-align: center;
+    }
+    .header .content .btngroup .btn1{
+        border-radius: 100vh;
+    }
+          /* start chefs  */
+          .chefs .cards {
+            flex-wrap: wrap;
+            text-align: center;
+         }
+          .chefs .cards .card {
+             width: 100%;
+         }
+          /* start gallery  */
+      
+        .gallery .dishs{
+            grid-template-columns: repeat(1 , 1fr);
+        }
+        .item:nth-child(3){
+            order: 1;
+     }
+      /* start contact us  */
+      .contactus .details >div{
+        width: 100%;
+       margin: auto;
+    }
+    .contactus form .user input{
+        width: 100%;
+    }
+    /* start footer  */
+    .footer .aboutus {
+        width: calc(calc(100% - 1.25rem) / 2);
+        order: 1;
+        width: 100%;
+    }
+    .footer .subscription{
+        width:100%;
+        order: 2;
+    }
+    .footer .subscription .useremail {
+        flex-direction: column;
+    }
+    .footer .contact{
+        width: calc(calc(100% - 1.25rem) / 2);
+        order: 3;
+    }
+
+}
+@media screen  and (306px < width <600px){
+    .container {
+        max-width: 350px;
+        flex-direction: row;
+    }
+    .nav .container .moon a ,.nav .container .setting a {
+        margin-left: 250px;
+     }
+    /* header sec */
+    .header{
+        height: 130vh;
+    }
+    .header .content {
+       margin-right: 88px;
+    }
+    .header .picture {
+        margin-right: 50px;
+       
+    }
+    .header .content {
+        text-align: center;
+    }
+    .header .content .btngroup .btn1{
+        border-radius: 100vh;
+    }
+     /* start chefs  */
+          .chefs .cards {
+            flex-wrap: wrap;
+            text-align: center;
+         }
+          .chefs .cards .card {
+             width: 100%;
+         }
+         /* start gallery  */
+        
+        .gallery .dishs{
+            grid-template-columns: repeat(1 , 1fr);
+        }
+        .item:nth-child(3){
+            order: 1;
+     }
+      /* start contact us  */
+      .contactus .details >div{
+        width: 100%;
+       margin: auto;
+    }
+    .contactus form .user input{
+        width: 100%;
+    }
+    /* start footer  */
+    .footer .aboutus {
+        width: calc(calc(100% - 1.25rem) / 2);
+        order: 1;
+        width: 100%;
+    }
+    .footer .subscription{
+        width:100%;
+        order: 2;
+    }
+    .footer .subscription .useremail {
+        flex-direction: column;
+    }
+    .footer .contact{
+        width: calc(calc(100% - 1.25rem) / 2);
+        order: 3;
+    }
+
+}
+
+@media screen  and (601px < width <768px){
+    .container {
+        max-width: 550px;
+        flex-direction: row;
+    }
+    .nav .container .moon a ,.nav .container .setting a {
+        margin-left: 300px;
+     }
+    /* header sec */
+    .header{
+        height: 140vh;
+    }
+    .header .content {
+       margin-right: 88px;
+    }
+    .header .picture {
+        margin-right: 50px;
+    }
+    .header .content {
+        text-align: center;
+    }
+    .header .content .btngroup .btn1{
+        border-radius: 100vh;
+    }
+        /* start chefs  */
+          .chefs .cards {
+           flex-wrap: wrap;
+           text-align: center;
+        }
+         .chefs .cards .card {
+            width: 100%;
+        }
+        /* start gallery  */
+        .gallery .dishs{
+            grid-template-columns: repeat(1 , 1fr);
+        }
+        .item:nth-child(3){
+            order: 1;
+     }
+     /* start contact us  */
+     .contactus .details >div{
+        width: 100%;
+       margin: auto;
+    }
+    .contactus form .user input{
+        width: 100%;
+    }
+    /* start footer  */
+    .footer .aboutus {
+        width: calc(calc(100% - 1.25rem) / 2);
+        order: 1;
+    }
+    .footer .subscription{
+        width:100%;
+        order: 2;
+    }
+    .footer .contact{
+        width: calc(calc(100% - 1.25rem) / 2);
+        order: 3;
+    }
+
+}
+@media screen  and (769px < width <992px){
+    .container {
+        max-width: 720px;
+        flex-direction: row;
+    }
+    .nav .container .moon a ,.nav .container .setting a {
+        margin-left: 300px;
+     }
+    /* header sec */
+    .header{
+        height: 150vh;
+    }
+    .header .content {
+       margin-right: 88px;
+    }
+    .header .picture {
+        margin-right: 50px;
+    }
+    .header .content {
+        text-align: center;
+        
+    }
+    
+      /* start chefs  */
+          .chefs .cards {
+           flex-wrap: wrap;
+           text-align: center;
+        }
+         .chefs .cards .card {
+            width: 45%;
+        }
+        /* start gallery  */
+       
+        .gallery .dishs{
+            grid-template-columns: repeat(2 , 1fr);
+        }
+        .item:nth-child(5){
+               order: 1;
+        }
+        /* start contact us  */
+        .contactus .details >div{
+            width: 40%;
+           margin: auto;
+        }
+        .contactus form .user input{
+            width: 100%;
+        }
+        /* start footer  */
+        .footer .aboutus {
+            width: calc(calc(100% - 1.25rem) / 2);
+            order: 1;
+        }
+        .footer .subscription{
+            width:100%;
+            order: 2;
+        }
+        .footer .contact{
+            width: calc(calc(100% - 1.25rem) / 2);
+            order: 1;
+        }
+        
+
+}
+
+@media screen  and (993px < width <1200px){
+    .container {
+        max-width: 960px;
+        flex-direction: row;
+    }
+    .nav .container .moon a ,.nav .container .setting a {
+        margin-left: 400px;
+     }
+        /* header sec */
+        .header{
+            height: 150vh;
+        }
+        .header .content {
+           margin-right: 205px;
+        }
+        .header .picture {
+            margin-right: 175px;
+        }
+        .header .content {
+            text-align: center;
+        }
+        /* start contact us  */
+        .contactus .details >div{
+            width: 35%;
+           margin: auto;
+        }
+        .contactus form .user input{
+            width: 49%;
+        }
+        /* start footer  */
+        .footer .aboutus {
+            width: calc(calc(100% - 1.25rem) / 2);
+            order: 1;
+        }
+        .footer .subscription{
+            width:100%;
+            order: 2;
+        }
+        .footer .contact{
+            width: calc(calc(100% - 1.25rem) / 2);
+            order: 1;
+        }
+        
+}
